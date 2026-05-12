@@ -7,6 +7,8 @@ export const CONFIG = {
     OFICINAS: "/oficinas.php",
     PROVEEDORES: "/proveedores.php",
     EMPLEADOS: "/empleados.php",
+    CATEGORIAS: "/categorias.php",
+    PRODUCTOS: "/productos.php",
   },
 
   VERSION: "1.0.0",

@@ -9,6 +9,7 @@ export const fetchEmpleados = async (
   //! URL TEMPORAL
   const response = await fetch("https://servicios.campus.pe/empleados.php", {
     signal,
+    method: "GET",
   });
   if (!response.ok) {
     throw new Error(

@@ -55,7 +55,7 @@ const router = createBrowserRouter([
       {
         path: "tienda",
         lazy: async () => ({
-          Component: (await import("./pages/Tienda.tsx")).default,
+          Component: (await import("./pages/tienda/index.tsx")).default,
         }),
       },
       {
